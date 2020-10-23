@@ -19,8 +19,7 @@ class Eventos(models.Model):
     nombre = models.CharField(max_length=30)
     lugar= models.CharField(max_length=30)
     ciudad = models.CharField(max_length=30)
-    hora = models.CharField(max_length=30)
-    responsable = models.CharField(max_length=30)     
+    hora = models.CharField(max_length=30)     
     url = models.CharField(max_length=30)     
     
 

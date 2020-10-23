@@ -22,7 +22,7 @@ from app import views
 router = routers.DefaultRouter()
 router.register(r'persona', views.PersonaViewSet)
 router.register(r'lugar', views.LugarViewSet)
-router.register(r'evento', views.EventoViewSet)
+router.register(r'eventos', views.EventoViewSet)
 
 
 urlpatterns = [

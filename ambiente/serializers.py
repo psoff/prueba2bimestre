@@ -14,5 +14,5 @@ class LugarSerializers(serializers.ModelSerializer):
 class EventoSerializers(serializers.ModelSerializer):
     class Meta:
         model=Eventos
-        fields= ('nombre','lugar','ciudad','hora','reponsable','url')    
+        fields= ('nombre','lugar','ciudad','hora','url')    
           
